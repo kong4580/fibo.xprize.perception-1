@@ -1,1 +1,18 @@
-# fibo.xprize.perception
+# FIBO XPRIZE Perception Unit
+.....................
+
+# System Overview
+.....................
+
+# Operation Mode
+.....................
+
+# Communication (MQTT Topic)
+.....................
+## Operator
+.....................
+- แสดงค่า Rotation (roll, pitch, yaw) ของ Operator ใน Topic ชื่อว่า ``/operator/rotation``
+    - รูปแบบของข้อมูลคือ ``<roll>,<pitch>,<yaw>`` มีค่าระหว่า ``-180.0`` ถึง ``+180.0`` มีหนว่ยเป็น ``Degree`` ข้อมูลประเภท ``Floting`` 
+
+## Avatar
+.....................
